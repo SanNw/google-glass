@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+	<title>tudo sobre google glass</title>
+	<link rel="stylesheet" href="_css/estilo.css"/>
+	<link rel="stylesheet" href="_css/midia.css"/>
+
+</head>
+<script type="text/javascript" src="_javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+	<header id="cabecalho">
+	<hgruop>
+
+	<h1>Google Glass</h1>
+	<h2> A revolução do Google está chegando</h2>
+	</hgruop>
+
+	<img id="icone" src="_imagens/glass-oculos-preto-peq.png"/>
+<nav id="Menu">
+	<h1>Menu Principal</h1>
+	<ul>
+		<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+
+		<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+
+		<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+
+		<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+		<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+	</ul>
+</nav>
+	</header>
+
+<section id="corpo-full">
+	<article id="noticia-principal">
+		<header id="cabecalho-artigo">
+			<hgroup>
+				<h3>Glass > multimida</h3>
+				<h1>Sons e Videos</h1>
+				<h2>por Gustavo Guanabara</h2>
+				<h3 class="direita">Atualizado em 23/Abril/2013</h3>
+			</hgroup>
+		</header>
+
+
+		<div id="tv-radio">
+			<audio id="musica" controls>
+
+				<source src="_midia/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+				<source src="_midia/2009-lovers-carvings-bibio.mp4a" type="audio/x-aac"/>
+				<source src="_midia/2009-lovers-carvings-bibio.ogg" type="audio/ogg"/>
+				Desculpe, mas não foi possivel carregar o audio.	
+			</audio>
+			<video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+				<source src="_midia/getting-started.mp4" type="video/mp4"/>
+				<source src="_midia/getting-started.webm" type="video/webm"/>
+				<source src="_midia/getting-started.ogv" type="video/ogg"/>
+				Desculpe, mas não foi possivel carregar o video.
+			</video>
+		</div>
+	</article>
+</section>
+<footer id="rodape">
+<p>Copyright 2013 &copy; - by Gustavo Guanabara<br/>
+<a href="http://Facebook.com/w3e4o9h/" target="_blank">Facebook</a>| <a href="http://twitter.com/home?lang=pt" target="_blank">Twitter</a></p>
+</footer>
+</div>
+</body>
+</html>
